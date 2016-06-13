@@ -45,13 +45,15 @@ li {
 }
 
 .search {
-    border: none;
+    display: block;
+    margin: 0 auto;
 }
 
-.search img {
+.imgSearch {
     padding-top: 109px;
     padding-bottom: 20px;
-    ;
+    margin: auto;
+    display: block;
 }
 
 #buttons {
@@ -64,3 +66,19 @@ li {
 
 fieldset { border:0px;}
 
+.footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:2em;   /* Height of the footer */
+   background: rgb(242, 242, 242);
+   border-top-color: rgb(228,228,228);
+}
+
+#footer-left {
+    float: left;
+}
+
+#footer-right {
+    float: right;
+}
